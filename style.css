@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    color: #e74c3c;
+}
+
+.subtitle {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
+
+.highlight {
+    color: #3498db;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#ebookList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#ebookList li {
+    margin-bottom: 10px;
+}
+
+#ebookList li a {
+    display: block;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+#ebookList li a:hover {
+    background-color: #3498db;
+}
